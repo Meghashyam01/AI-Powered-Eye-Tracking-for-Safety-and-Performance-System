@@ -1,103 +1,76 @@
-# AI-Powered-Eye-Tracking-for-Safety-and-Performance-System
+# 👁️ AI-Powered Eye Tracking for Safety and Performance System
 
 A real-time AI-based system designed to monitor eye movements and blinking patterns to detect drowsiness, inattention, or fatigue, enhancing safety and improving performance in critical environments like driving, industrial operations, and workplace monitoring.
 
-🚀 Project Overview
+---
+
+## 🚀 Project Overview
+
 This project utilizes computer vision and machine learning techniques to:
 
-Track eye movement using a webcam or external camera.
+- Track eye movement using a webcam or external camera.
+- Detect drowsiness based on blink rate and eye aspect ratio (EAR).
+- Alert the user in real-time through audio or visual notifications.
+- Provide logs for performance monitoring and safety analytics.
 
-Detect drowsiness based on blink rate and eye aspect ratio (EAR).
+---
 
-Alert the user in real-time through audio or visual notifications.
+## 🧠 Technologies Used
 
-Provide logs for performance monitoring and safety analytics.
+- **Python**
+- **OpenCV** – for real-time video capture and image processing.
+- **Dlib** – for facial landmark detection.
+- **scikit-learn / TensorFlow** – for training machine learning models (optional).
+- **NumPy, imutils** – for numerical and image utility operations.
+- **Pyttsx3 / Playsound / Pygame** – for voice alerts or alarm sounds.
 
-🧠 Technologies Used
-Python
+---
 
-OpenCV – for real-time video capture and image processing.
+## 📁 Features
 
-Dlib – for facial landmark detection.
+- 🔍 **Eye Detection & Tracking**
+- 😴 **Drowsiness & Fatigue Detection**
+- 🧠 **Cognitive Load Monitoring** *(optional enhancement)*
+- 📊 **Performance Analytics**
+- 🔊 **Real-Time Alerts**
+- 📦 **Modular Code Design**
 
-scikit-learn / TensorFlow – for training machine learning models (optional for advanced features).
+---
 
-NumPy, imutils – for numerical and image utility operations.
+## ⚙️ How It Works
 
-Pyttsx3 / Playsound / Pygame – for voice alerts or alarm sounds.
+1. Captures real-time video from webcam.
+2. Detects facial landmarks using Dlib's 68-point model.
+3. Calculates Eye Aspect Ratio (EAR) to monitor eye closure.
+4. If EAR is below a threshold for a specific duration, triggers an alert.
+5. Logs activity and alert history for later analysis.
 
-📁 Features
-🔍 Eye Detection & Tracking
+---
 
-😴 Drowsiness & Fatigue Detection
+## 🛠️ Installation
 
-🧠 Cognitive Load Monitoring (optional enhancement)
-
-📊 Performance Analytics (log output for post-session analysis)
-
-🔊 Real-Time Alerts (audio/visual)
-
-📦 Modular Code Design for easy extension
-
-⚙️ How It Works
-Captures real-time video from webcam.
-
-Detects facial landmarks using Dlib's 68-point model.
-
-Calculates Eye Aspect Ratio (EAR) to monitor eye closure.
-
-If EAR is below a threshold for a specific duration, triggers an alert.
-
-Logs activity and alert history for later analysis.
-
-🛠️ Installation
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/AI-Powered-Eye-Tracking-for-Safety-and-Performance-System.git
 cd AI-Powered-Eye-Tracking-for-Safety-and-Performance-System
 pip install -r requirements.txt
-▶️ Usage
-bash
-Copy
-Edit
-python eye_tracking_system.py
-Make sure your webcam is connected and accessible.
 
-📈 Future Enhancements
-Integration with deep learning models for more robust predictions.
+## ✍️ Author
 
-Add head pose estimation to detect distraction.
+**Sana Ali** – AI Intern | ML Enthusiast | Safety AI Innovator
 
-Integration with dashboard analytics using Streamlit or Dash.
+---
 
-Deploy on Raspberry Pi or edge devices.
+## 🛡️ License
 
-Support for thermal camera input (for industrial safety environments).
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-📄 Folder Structure
-bash
-Copy
-Edit
-AI-Eye-Tracking/
-│
-├── eye_tracking_system.py        # Main script
-├── utils/
-│   └── eye_aspect_ratio.py       # Helper function for EAR
-├── models/                       # (Optional ML/DL models)
-├── requirements.txt
-├── README.md
-└── alert_sounds/
-    └── alarm.wav
-✍️ Authors
-Sana Ali – AI Intern | Machine Learning Enthusiast | Safety AI Innovator
+---
 
-🛡️ License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🙌 Acknowledgments
 
-🙌 Acknowledgments
-Dlib Facial Landmark Detection by Davis King
+- Dlib Facial Landmark Detection by [Davis King](http://dlib.net/)
+- OpenCV community
+- PyImageSearch tutorials and resources
 
-OpenCV community for powerful real-time image processing tools
 
-Tutorials from PyImageSearch and other open-source contributors
+
