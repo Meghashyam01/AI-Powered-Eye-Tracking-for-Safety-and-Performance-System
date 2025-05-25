@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ## ✍️ Author
 
-**Sana Ali** – AI Intern | ML Enthusiast | Safety AI Innovator
+B.Megha Shyam kumar| ML Enthusiast | Safety AI Innovator
 
 ---
 
