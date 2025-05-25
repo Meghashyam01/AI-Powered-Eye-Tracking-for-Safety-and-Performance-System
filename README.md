@@ -49,10 +49,9 @@ This project utilizes computer vision and machine learning techniques to:
 
 ## 🛠️ Installation
 
-```bash
 git clone https://github.com/yourusername/AI-Powered-Eye-Tracking-for-Safety-and-Performance-System.git
 cd AI-Powered-Eye-Tracking-for-Safety-and-Performance-System
-pip install -r requirements.txt
+pip install -r requirements.tx
 
 ## ✍️ Author
 
